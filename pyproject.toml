@@ -1,0 +1,16 @@
+[project]
+name = "snp10-backtest"
+version = "0.1.0"
+description = "Backtest a Top-10 S&P 500 strategy"
+requires-python = ">=3.11"
+dependencies = [
+    "yfinance>=0.2.40",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    "pyarrow>=14.0",
+]
+
+[tool.uv]
+dev-dependencies = []
